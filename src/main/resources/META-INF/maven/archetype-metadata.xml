@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+ ~ Developer: Andrey Zubkov
+ ~ Date: 30.05.13
+ ~ Time: 23:28
+-->
+<archetype-descriptor name="basic">
+    <fileSets>
+        <fileSet filtered="true">
+            <directory>src/main/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true">
+            <directory>src/test/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true">
+            <directory>src/test/resources</directory>
+            <includes>
+                <include>**/*.txt</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</archetype-descriptor>
